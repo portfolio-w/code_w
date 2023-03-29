@@ -24,7 +24,7 @@
 	background: linear-gradient(#DED1C4, #eee, #eee, #F6DFE0,  #ddaaaa);
 }
 
-@keyframes section_first {
+@keyframes section_second {
 	0%   { opacity: 1.0; }
 	10%  { opacity: 0.8; }
 	20%  { opacity: 0.6; }
@@ -43,7 +43,7 @@
 	background: linear-gradient(#eee,#eee, #eee, #CED1CD, #B0D1AE);
 }
 
-@keyframes section_second {
+@keyframes section {
 	0%   { opacity: 0; }
 	10%  { opacity: 0.2; }
 	20%  { opacity: 0.4; }
