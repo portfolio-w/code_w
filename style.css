@@ -25,17 +25,17 @@
 }
 
 @keyframes section_second {
-	0%   { opacity: 1.0; }
-	10%  { opacity: 0.8; }
-	20%  { opacity: 0.6; }
-	30%  { opacity: 0.4; }
-	40%  { opacity: 0.2; }
-	50%  { opacity: 0.1; }
-	60%  { opacity: 0.2; }
-	70%  { opacity: 0.4; }
-	80%  { opacity: 0.6; }
-	90%  { opacity: 0.8; }
-	100% { opacity: 1.0; }
+	0%   { opacity: 0; }
+	10%  { opacity: 0.2; }
+	20%  { opacity: 0.4; }
+	30%  { opacity: 0.6; }
+	40%  { opacity: 0.8; }
+	50%  { opacity: 1.0; }
+	60%  { opacity: 0.8; }
+	70%  { opacity: 0.6; }
+	80%  { opacity: 0.4; }
+	90%  { opacity: 0.2; }
+	100% { opacity: 0; }
 }
 .section .gr_second {
 	z-index: 20;
