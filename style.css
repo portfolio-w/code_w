@@ -20,7 +20,7 @@
 }
 .section .gr_first {
 	z-index: 10;
-	animation: anime13_first 10s infinite;
+	animation: section_first 10s infinite;
 	background: linear-gradient(#DED1C4,#DED1C4, #DED1C4, #DEDDDA,  #ddaaaa);
 }
 
