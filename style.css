@@ -6,8 +6,8 @@
 .section .gr_first,
 .section .gr_second,
 .section .gr_third {
-	width: 200px;
-	height: 200px;
+	width: 100%;
+	height: 100vh;
 }
 .section .gr_first,
 .section .gr_second,
