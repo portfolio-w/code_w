@@ -20,11 +20,11 @@
 }
 .section .gr_first {
 	z-index: 10;
-	animation: section_first 10s infinite;
+	animation: section_first 15s infinite;animation-delay: 0s;
 	background: linear-gradient(#DED1C4, #eee, #eee, #F6DFE0,  #ddaaaa);
 }
 
-@keyframes section_second {
+@keyframes section_first {
 	0%   { opacity: 1.0; }
 	10%  { opacity: 0.8; }
 	20%  { opacity: 0.6; }
@@ -39,11 +39,11 @@
 }
 .section .gr_second {
 	z-index: 20;
-	animation: section_second 10s infinite; animation-delay: 2s;
+	animation: section_second 15s infinite; animation-delay: 5s;
 	background: linear-gradient(#eee,#eee, #eee, #CED1CD, #B0D1AE);
 }
 
-@keyframes section {
+@keyframes section_second {
 	0%   { opacity: 0; }
 	10%  { opacity: 0.2; }
 	20%  { opacity: 0.4; }
@@ -58,8 +58,8 @@
 }
 .section .gr_third {
 	z-index: 30;
-	animation: section_third 10s infinite;
-	animation-delay: 8s;
+	animation: section_third 15s infinite;
+	animation-delay: 10s;
 	background: linear-gradient(#DED1C4, #eee, #eee, #DFECF6, #AECAD1);
 }
 
