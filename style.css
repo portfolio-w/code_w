@@ -20,7 +20,8 @@
 }
 .section .gr_first {
 	z-index: 10;
-	animation: section_first 15s infinite;animation-delay: 0s;
+	animation: section_first 15s infinite;
+	animation-delay: 0s;
 	background: linear-gradient(#DED1C4, #eee, #eee, #ddaaaa);
 }
 
@@ -39,7 +40,8 @@
 }
 .section .gr_second {
 	z-index: 20;
-	animation: section_second 10s infinite; animation-delay: 5s;
+	animation: section_second 10s infinite; 
+	animation-delay: 5s;
 	background: linear-gradient(#DED1C4,#eee, #eee, #B0D1AE);
 }
 
@@ -58,8 +60,8 @@
 }
 .section .gr_third {
 	z-index: 30;
-	animation: section_third 15s infinite;
-	animation-delay: 10s;
+	animation: section_third 5s infinite;
+	animation-delay: 5s;
 	background: linear-gradient(#DED1C4, #eee, #eee, #AECAD1);
 }
 
