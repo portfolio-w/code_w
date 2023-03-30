@@ -38,26 +38,7 @@
 	90%  { opacity: 0.8; }
 	100% { opacity: 1.0; }
 }
-.section .gr_second {
-	z-index: 20;
-	animation: section_second 10s infinite; 
-	animation-delay: 5s;
-	background: linear-gradient(#DED1C4,#eee, #eee, #B0D1AE);
-}
 
-@keyframes section_second {
-	0%   { opacity: 0; }
-	10%  { opacity: 0.2; }
-	20%  { opacity: 0.4; }
-	30%  { opacity: 0.6; }
-	40%  { opacity: 0.8; }
-	50%  { opacity: 1.0; }
-	60%  { opacity: 0.8; }
-	70%  { opacity: 0.6; }
-	80%  { opacity: 0.4; }
-	90%  { opacity: 0.2; }
-	100% { opacity: 0; }
-}
 .section .gr_third {
 	z-index: 30;
 	animation: section_third 5s infinite;
