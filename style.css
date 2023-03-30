@@ -20,9 +20,8 @@
 }
 .section .gr_first {
 	z-index: 10;
-	animation: section_first 15s infinite;
-	animation-delay: 0s;
-	background: linear-gradient(#DED1C4, #eee, #eee, #ddaaaa);
+	animation: section_first 15s infinite;animation-delay: 0s;
+	background: linear-gradient(#fff, #ccc);
 }
 
 @keyframes section_first {
@@ -40,9 +39,8 @@
 }
 .section .gr_second {
 	z-index: 20;
-	animation: section_second 10s infinite; 
-	animation-delay: 5s;
-	background: linear-gradient(#DED1C4,#eee, #eee, #B0D1AE);
+	animation: section_second 15s infinite; animation-delay: 5s;
+	background: linear-gradient(#eee, #b8d1e4);
 }
 
 @keyframes section_second {
@@ -60,9 +58,9 @@
 }
 .section .gr_third {
 	z-index: 30;
-	animation: section_third 5s infinite;
-	animation-delay: 5s;
-	background: linear-gradient(#DED1C4, #eee, #eee, #AECAD1);
+	animation: section_third 15s infinite;
+	animation-delay: 10s;
+	background: linear-gradient(#eee, #e6d7e5);
 }
 
 @keyframes section_third {
