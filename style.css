@@ -39,7 +39,7 @@
 }
 .section .gr_second {
 	z-index: 20;
-	animation: section_second 15s infinite; animation-delay: 5s;
+	animation: section_second 10s infinite; animation-delay: 5s;
 	background: linear-gradient(#eee,#eee, #eee, #B0D1AE);
 }
 
